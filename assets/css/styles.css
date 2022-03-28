@@ -17,6 +17,7 @@
   --sat: 66%;
   --lig: 75%;
   --second-hue: 219;
+
   --first-color: hsl(var(--first-hue), var(--sat), var(--lig));
   --first-color-alt: hsl(var(--first-hue), var(--sat), 71%); /* -4% */
   --title-color: hsl(var(--second-hue), 15%, 95%);
@@ -82,7 +83,6 @@ textarea {
 body {
   background-color: var(--body-color);
   color: var(--text-color);
-  transition: 0.4s; /* for light mode animation */
 }
 
 h1,
@@ -123,8 +123,8 @@ img {
 /* ============ REUSABLE CSS CLASSES ============ */
 .container {
   max-width: 968px;
-  margin-right: 1rem;
   margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .grid {
